@@ -1,0 +1,108 @@
+.body{
+    background-image: url(back.jpg);
+  }
+  .container{
+  
+      display: flex;
+      flex-direction: row;
+  
+   
+      justify-content: space-between;
+      width: 80%;
+      height: 80vh;
+      margin-left: 17vh;
+      margin-top: 20px;
+      
+      padding: 20px;
+   
+  
+  }
+  
+  .flex{
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  .h2{
+      border: none solid 3px;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      height: 20px;
+     
+  }
+  .rickshaw{
+    color: aliceblue; 
+    font-style: italic;
+  }
+  .button {
+      background-color: #4CAF50;
+      border-radius: 10px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      border: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+  
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+      height: 50vh;
+  
+     
+     
+    }
+    
+  
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: black;
+      background-color: bisque;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 20px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
+  
+    myDIV {
+      width: 100%;
+      height: 150px;
+      background: red;
+      animation: mymove 5s infinite;
+    }
+    
+    @keyframes mymove {
+      from {background-color: red;}
+      to {background-color: blue;}
+    }
+  
+    #demo{
+ 
+        text-align: center;
+        font-size: 40px;
+        margin-top: 0px;
+        color:red;
+      
+    }
+    #borderimg1 { 
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(border.png) 30 round;
+      color: aliceblue;
+    }
+ 
+  
+   

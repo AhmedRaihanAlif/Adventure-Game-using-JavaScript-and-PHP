@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100vh;
+ 
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(iu.jpg);
+  object-fit: cover;
+}
+
+.newspaper {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  border-width: 5px;
+  background-color: blueviolet;
+}

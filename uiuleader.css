@@ -1,0 +1,34 @@
+body{
+    background-color: #02383C;
+}
+
+#customers {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90vh;
+    height: 60vh;
+    border-radius: 15px;
+    
+  }
+  
+  #customers td, #customers th {
+    
+
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  #customers tr:nth-child(even){background-color: lightcyan;}
+  #customers tr:nth-child(odd){background-color: lightgrey;}
+  
+  #customers tr:hover {background-color: rosybrown;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:lightgoldenrodyellow;
+    color: brown;
+    font-size: 25px;
+  }
